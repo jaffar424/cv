@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gabor Toth — Cloud Platform Security CV</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; background: #f4f4f4; font-family: 'Montserrat', sans-serif; }
+    body { display: flex; justify-content: center; align-items: flex-start; padding: 0; }
+
+    /* Fix full A4 sizing */
+    .cv {
+      width: 210mm;
+      height: 297mm;
+      background: #ffffff;
+      display: flex;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+      color: #111;
+    }
+
+    .sidebar {
+      width: 30%;
+      background: #FF7A00;
+      color: white;
+      padding: 40px 28px;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .name { font-size: 30px; font-weight: 700; line-height: 1.1; text-transform: uppercase; }
+    .title { font-size: 12px; font-weight: 600; margin-top: 6px; }
+
+    .contact { margin-top: 18px; font-size: 11px; line-height: 1.4; }
+    .contact a { color: white; text-decoration: none; word-break: break-all; }
+    .contact a:hover { text-decoration: underline; }
+
+    .main {
+      width: 70%;
+      padding: 45px 50px;
+      overflow: hidden;
+    }
+
+    .section { margin-bottom: 26px; }
+    .section h2 {
+      font-size: 15px;
+      font-weight: 700;
+      color: #FF7A00;
+      text-transform: uppercase;
+      border-bottom: 2px solid #FF7A00;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+    .section p, .section li {
+      font-size: 12px;
+      line-height: 1.6;
+      color: #222;
+    }
+    .section ul { margin-top: 6px; margin-left: 20px; }
+
+    /* Print setup */
+    @page { size: A4; margin: 0; }
+    @media print {
+      body { background: white; }
+      .cv { box-shadow: none; width: 210mm; height: 297mm; transform: scale(1); }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="cv">
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div>
+        <div class="name">Gabor Toth</div>
+        <div class="title">Cloud Platform Security Engineer | AI & Data Protection Specialist</div>
+      </div>
+
+      <div class="contact">
+        📍 Szeged, Hungary<br><br>
+        ✉️ <a href="mailto:jaffar424@freemail.hu">jaffar424@freemail.hu</a><br><br>
+        🔗 <a href="https://www.linkedin.com/in/g%C3%A1bor-t%C3%B3th-5804842a1" target="_blank">https://www.linkedin.com/in/gábor-tóth-5804842a1</a><br><br>
+        🔗 <a href="https://www.skills.google/public_profiles/7bbc2564-9b60-45fd-b0bc-b8f173e7c97d" target="_blank">https://www.skills.google/public_profiles/7bbc2564-9b60-45fd-b0bc-b8f173e7c97d</a><br><br>
+        🔗 <a href="https://www.credly.com/users/gabor-toth.0b206e94" target="_blank">https://www.credly.com/users/gabor-toth.0b206e94</a>
+      </div>
+    </aside>
+
+    <!-- MAIN -->
+    <main class="main">
+      <section class="section">
+        <h2>Profile</h2>
+        <p>
+Cloud & AI Security Engineer with a strong foundation in data science, cloud infrastructure, and microelectronics (low voltage). Experienced in securing cloud environments and protecting AI workloads through IAM, API protection, encryption, and monitoring. Certified in Google cybersecurity topics and SIEM/SOAR workflows; hands-on practice with incident response and threat detection. Over 10+ years of experience in IT and microelectronics and 2 years of advanced-level studies focused on cloud and security.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>Skills</h2>
+        <p>
+Google Cloud Security • IAM • API Security • VPC & Networking • Firewalls • Python • Cloud Monitoring & Logging • SIEM • SOAR • SOC Operations • Cyber Security • Encryption & Key Management • Data Privacy & Compliance • Linux Security • Kali Linux • Penetration Testing • Threat Detection • Automation • Data Science • AI Development
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>Cybersecurity & Cloud Security Training</h2>
+        <p>
+<strong>Google – Cybersecurity & Cloud Security Certificate (2024)</strong><br>
+Specialized in SIEM & SOAR, SOC monitoring, and incident response. Hands-on practice with threat detection, IAM, API security, and data encryption in Google Cloud Platform (GCP) environments. Experienced with Kali Linux for penetration testing and network monitoring.
+        </p>
+        <ul>
+          <li>Configured simulated SOC dashboards and SIEM rule logic for threat detection.</li>
+          <li>Conducted network monitoring and vulnerability scanning.</li>
+          <li>Built secure automation pipelines in Python.</li>
+          <li>Explored API protection patterns and data isolation for AI services.</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>Work Experience</h2>
+        <p>
+<strong>Freelancer / NPT GmbH — Schweiz (2005–2020)</strong><br>
+Worked on IT and electronics projects as a freelance specialist. Specialized in low-voltage systems, automation, and embedded technologies. Designed and maintained electronic systems, networks, and software environments. Supported embedded system design and custom network integration. Experienced in independent project management and problem solving.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>Education</h2>
+        <p>
+<strong>IBM (Online) — Higher National Certificate, 2025</strong><br>
+Specialization in Cloud Security and AI infrastructure protection.<br><br>
+
+<strong>University of Szeged — Bachelor of Science (2023–present)</strong><br>
+Computer Science Engineering. Multiple first-place results in Data Science and Cybersecurity competitions.<br><br>
+
+<strong>Szeged — Vocational Technical Studies (2004–2006)</strong><br>
+Technician in low-voltage electronics and computer science.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>Languages</h2>
+        <p>Hungarian — Native<br>English — Intermediate<br>German — Basic</p>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
